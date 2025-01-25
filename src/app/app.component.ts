@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "../header/header.component";
+import { StatsTableComponent } from '../stats-table/stats-table.component';
 
 @Component({
   selector: 'app-root',

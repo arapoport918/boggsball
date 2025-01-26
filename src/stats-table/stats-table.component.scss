@@ -1,0 +1,68 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Table Style */
+.stats-table {
+    width: 100%;
+    border-collapse: collapse; 
+    font-size: 14px; /* Smaller text for clean appearance */
+    color: #333; /* Dark gray text for readability */
+    background-color: #f9f9f9; /* Light background for the whole table */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .stats-table th,
+  .stats-table td {
+    padding: 12px 15px; /* Add padding inside cells */
+    text-align: center; /* Align text to the left */
+  }
+  
+  .stats-table thead {
+    color: black; /* White text for header */
+  }
+  
+  .stats-table th {
+    border-bottom: 2px solid black; /* Bottom border for headers */
+  }
+  
+  .stats-table tbody tr {
+    background-color: #fff; /* White background for table rows */
+  }
+  
+  .stats-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray rows for even rows */
+  }
+
+  .stats-table thead th:nth-child(4) {
+    border-right: 2px solid black;
+  }
+  
+  .stats-table tbody tr:hover {
+    background-color: #ddd; /* Light blue on hover for rows */
+  }
+  
+  .stats-table td {
+    font-weight: normal; /* Normal font weight for cell text */
+    text-align: center;
+  }
+  
+  .stats-table tbody td:first-child {
+    border-left: none; /* Remove the left border for the first column */
+  }
+
+  .position {
+    border-right: 2px solid black;
+  }
+  
+  /* Responsive for small screens */
+  @media (max-width: 768px) {
+    .stats-table th, .stats-table td {
+      padding: 8px; /* Reduce padding for smaller screens */
+      font-size: 12px; /* Smaller text */
+    }
+  }
+  
